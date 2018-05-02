@@ -2,7 +2,7 @@
 
 int m, n;
 char grid[100][100];
-static int nPockets = 0;
+int nPockets = 0;
 
 void dfs(const int x, const int y)
 {
